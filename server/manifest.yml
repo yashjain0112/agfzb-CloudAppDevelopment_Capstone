@@ -1,11 +1,11 @@
   applications:
-  - name: dealerreiew
+  - name: yj-cardealership
     routes:
-      - route: host.domain
+      - route: yj-cardealership.eu-gb.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: dealerreiew-nginx
+  - name: yj-cardealership-nginx
     routes:
-      - route: host.domain/static
+      - route: yj-cardealership.eu-gb.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
